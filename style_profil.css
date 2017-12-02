@@ -1,0 +1,131 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url("images/27117506-blackboard-wallpapers.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	clear: both;
+
+}
+.header{
+	border: 5px solid white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 100%;
+}
+.gambar-header{
+	width: 70px;
+	float: left;
+	z-index: 9;
+}
+.menu{
+	width: 100%;
+	float: left;
+	background:#292929;
+	
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+	margin: 2%;
+}
+.menu ul li a{
+	margin-left: 180px;
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	transition: all 0.9s;
+	font-family: 'Poppins', sans-serif;
+
+}
+.menu ul li a:hover{
+	background:#161616;
+	border-radius: 10px 10px 10px 10px;
+}
+.form{
+	text-align: left;
+	margin-left: 2%;
+	width: 40%;
+	float: left;
+	clear: both;
+	border: 2px solid white;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+	padding-bottom: 2%;
+
+	
+}
+input[type="email"], input[type="password"], input[type="text"], input[type="date"], input[type="number"], input[type="checkbox"], select{
+	width: 60%;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.tulisan {
+	width: 60%;
+	float: right;
+	margin-top: -60%;
+	
+}
+.tulisan h1{
+	text-align: center;
+	font-family: 'Cabin Sketch', cursive;
+    color: #ff1c3c;
+	
+}
+.group-content {
+	width: 100%;
+	
+}
+.form h1{
+	font-family: 'Lato', sans-serif;
+	color: #ff1c3c;
+}
+form p{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+.sidebar{
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin-left: 35%;
+	margin-top: -27%;
+	
+}
+.sidebar h2{
+	font-size: 35px;
+	clear: both;
+	font-family: 'Cabin Sketch', cursive;
+	color: #ff1c3c;
+	margin-left: 15px;
+}
+.sidebar img{
+	
+	width: 350px;
+	height: 350px;
+	border-radius: 100em;
+	margin-left: -20%;
+}
+.sidebar p{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-align: center;
+	margin-left: 60px;
+}
+input[type="submit"]{
+	color: white;
+	background: none;
+	width: 25%;
+}
+.upload {
+	clear: both;
+	margin-bottom: 0%;
+}
+
+

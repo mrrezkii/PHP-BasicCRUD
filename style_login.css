@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Lato');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Lato|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Fira+Sans+Extra+Condensed|Lato|Poppins');
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Rammetto+One');*/
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(images/27117506-blackboard-wallpapers.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+
+}
+.label{
+	font-family: 'Cabin Sketch', cursive;
+	color: white;
+	font-size: 40px;
+	border: 2px solid rgba(228,57,59,1.00);
+	border-radius: 0px 10px 10px 10px;
+	width: 150px;
+	background: rgba(228,57,59,1.00);
+	position: fixed;
+	z-index: 99;
+}
+.label a{
+	text-decoration: none;
+	color: white;
+}
+.form{
+	width: 32%;
+	margin-left: 35%;
+	margin-top: 85px;
+	float: left;
+	background-color: rgba(255,255,255,0.20);
+	padding-bottom: 2%;
+}
+.form a{
+	text-decoration: none;
+}
+.form h2{
+	float: left;
+	margin-left: 10px;
+	border-radius: 4px 4px 0 0;
+	width: 200px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-weight: 10;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.form-sign_in {
+	background:rgba(228,57,59,0.60);
+}
+.form-sign_in:hover {
+	background:rgba(228,57,59,1.00);
+}
+.form-sign_up{
+	background: rgba(134,134,134,0.45);
+}
+.form-sign_up:hover{
+	background: rgba(134,134,134,1.00);
+}
+.form p{
+	float: left;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 10px;
+}
+input[type="text"], input[type="password"], input[type="submit"]{
+	float: left;
+	margin-top: 2%;
+	margin-left: 10px;
+	padding: 10px;
+	width:50%;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	border: none;
+	background: none;
+	border-bottom: 2px solid rgba(172,170,170,1.00);
+	
+	
+}
+input[type="text"], input[type="password"]{
+	width: 85%;
+	-webkit-width: 85%;
+	-webkit-transition: all 0.2s;
+	
+}
+input[type="text"]:focus, input[type="password"]:focus{
+	width: 92%;
+	-webkit-width: 92%;
+	
+}
+input[type="submit"]{
+	width: 20%;
+	background:rgba(228,57,59,0.60);
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	margin-top: 10%;	
+}
+input[type="submit"]:hover{
+	background:rgba(228,57,59,1.00);
+}
+.checkbox {
+	margin-top: 5%;
+	padding-top: 2%;
+	margin-bottom: 0px;
+	margin-left: 7px;
+	clear: both;
+	font-family: 'Poppins', sans-serif;
+}
+
+.show {
+	width: 50px;
+	margin-top: 52%;
+	padding-top: 2%;
+	margin-bottom: 0px;
+	margin-left: -14%;
+	clear: both;
+	font-family: 'Poppins', sans-serif;
+}

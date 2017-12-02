@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url(" images/27117506-blackboard-wallpapers.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	clear: both;
+}
+.gambar-header2 {
+	width: 100%;
+}
+
+.group-content{
+	width: 100%;
+	padding-bottom: 7%;
+}
+.sidebar{
+	width: 30%;
+	float: left;
+	text-align: center;
+	border: 2px solid white;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+}
+.sidebar h2{
+	font-size: 35px;
+	clear: both;
+	font-family: 'Cabin Sketch', cursive;
+	color: #ff1c3c;
+}
+.sidebar img{
+	
+	width: 310px;
+}
+.sidebar p{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.sidebar a{
+	text-decoration: none;
+}
+.sidebar a:hover{
+	text-decoration: underline;
+	text-decoration-color: #f60606;
+}
+.sidebar a p{
+	color: #f60606;
+}
+.content {
+	width: 70%;
+}
+.content h1{
+	clear: none;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	margin-left: 58%;
+	width: 70%;
+}
+.content p{
+	clear: none;
+	font-family: 'Cabin Sketch', cursive;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	margin-left: 58%;
+	width: 70%;
+	margin-top: 10%;
+	
+}
+.content p a{
+	text-decoration: none;
+	color: #f60606;
+}
+.button{
+	width: 70%;
+	
+}
+input[type="button"]{
+	clear: none;
+	padding: 30px;
+	font-size: 50px;
+	color: white;
+	background: #930204;
+	border: 2px solid #930204;
+	border-radius: 16px 16px 16px 16px;
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+	transition: all 0.9s;
+	text-align: center;
+	margin-left: 0%;
+	width: 40%;
+	margin-top: 10%;
+
+	
+}
+input[type="button"]:hover{
+	background:#FF0004;
+}
+.content a{
+	text-decoration: none;
+}
+
+
+
+@keyframes slider {
+	0% {
+		left:0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+#slider{
+	overflow: hidden;
+	height: 100%;
+	width: auto;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 10s slider infinite;
+}
+#slider img{
+	width: 700px;
+	height: 500px;
+}
+.footer {
+	clear: both;
+	/*border: 5px solid white;*/
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	padding: 1%;
+}
+.sidebar img{
+	width: 300px;
+	height: 300px;
+	border-radius: 100em;
+	
+}
